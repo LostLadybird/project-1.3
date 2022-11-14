@@ -380,6 +380,12 @@
     padding: 0;
     font-family: "TTLakes-Light", "Arial", sans-serif;
     overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.page__menu::-webkit-scrollbar { 
+    display: none;
+}
 }
 .page__menu li {
     display: inline;
