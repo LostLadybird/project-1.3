@@ -15,7 +15,7 @@
     src: url("./fonts/TTLakes-Bold.woff");
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 783px) {
     .wrapper {
         width: 320px;
     }
@@ -95,7 +95,7 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 784px) {
+@media (min-width: 784px) and (max-width: 1119px) {
     .wrapper {
         width: 784px;
     }
@@ -183,7 +183,7 @@
     }
 }
 
-@media (min-width: 785px) and (max-width: 1121px) {
+@media (min-width: 1120px) {
     .wrapper {
         width: 1121px;
         height: 535px;
