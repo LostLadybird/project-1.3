@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "TTLakes-Light";
+  src: url("./fonts/TTLakes-Light.woff");
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .wrapper {
+    height: 234px;
+  }
+  header {
+    min-width: 1vh;
+    height: 80px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .wrapper {
+    height: 322px;
+  }
+}
+
+@media (min-width: 1121px) {
+  .wrapper {
+    height: 322px; /*высота поменяется со скриптом*/
+  }
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+.header {
+  background-color: #FFFFFF;
+}
+.title {
+  font-family: "TTLakes-Light", "Arial", sans-serif;
+  font-size: 16px;
+  color: #7E7E82;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 16px;
+  margin: 0;
+}
+.page {
+  display: flex;
+}
+.brands {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.brands li {
+  width: 240px;
+  height: 72px;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+  padding: 0;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.brands__tabs_lenovo {
+  background-image: url(/img/services-pics/Lenovo.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 20px;
+}
+.brands__tabs_samsung {
+  background-image: url(/img/services-pics/Samsung.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 17px;
+}
+.brands__tabs_apple {
+  background-image: url(/img/services-pics/Apple.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 12px;
+}
+.brands__tabs_bosch {
+  background-image: url(/img/services-pics/Bosch.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 21.7px;
+}
+.brands__tabs_link {
+  position: relative;
+  top: 16px;
+  right: 16px;
+}

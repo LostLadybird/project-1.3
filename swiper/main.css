@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "TTLakes-Light";
+  src: url("../fonts/TTLakes-Light.woff");
+}
+@font-face {
+  font-family: "TTLakes-DemiBold";
+  src: url("../fonts/TTLakes-DemiBold.woff");
+}
+
+
+@media (max-width: 767px) {
+  .wrapper {
+    min-height: 234px;
+  }
+  .brands {
+    display: none;
+  }
+  .page__button {
+    display: none;
+  }
+  .card {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 240px;
+  }
+  .brands__tabs_link {
+    left: 184px;
+    top: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1120px) {
+  .wrapper {
+    min-height: 322px;
+  }
+  .swiper-container {
+    display: none;
+  }
+  .brands {
+    display: flex;
+    list-style: none;
+    height: 184px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .card:nth-of-type(-n+3) {      /*верхний ряд*/
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card:nth-last-of-type(-n+3) {    /*нижний ряд*/
+    margin-bottom: 24px;
+  }
+  .card:nth-of-type(3n+1) {     /*первая и четвёртая карточки*/
+    margin-left: 24px;
+  }
+  .card:nth-of-type(3n+3) {
+    margin-right: auto;
+  }
+  .card {
+    margin-right: 24px;
+    width: 223px;
+  }
+  .card:nth-of-type(n+7) {
+    display: none;
+  }
+  .brands__tabs_link {
+    left: 168px;
+    top: 16px;
+  }
+  .hidden-tabs {
+    display: none;
+  }
+  .page__button {
+    position: absolute;
+    top: 274px;
+    left: 57px;
+  }
+  .page__button_icon {
+    width: 7.41px;
+    height: 10.29px;
+  }
+  .page__button_text {
+    border: none;
+    line-height: 24px;   
+    font-family: "TTLakes-DemiBold", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1121px) {
+  .wrapper {
+    min-height: 322px;
+  }
+  .swiper-container {
+    display: none;
+  }
+  .brands {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-top: 24px;
+    margin-left: 32px;
+    width: 240px;
+  }
+  .hidden-tabs {
+    display: none;
+  }
+  .brands__tabs_link {
+    left: 184px;
+    top: 16px;
+  }
+  .page__button {
+    position: absolute;
+    top: 284px;
+    left: 63px;
+  }
+  .page__button_icon {
+    width: 7.41px;
+    height: 10.29px;
+  }
+  .page__button_text {
+    border: none;
+    line-height: 24px;   
+    font-family: "TTLakes-DemiBold", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+.header {
+  display: flex;
+  background-color: #FFFFFF;
+}
+.title {
+  display: inline-block;
+  font-family: "TTLakes-Light", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #7E7E82;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 16px;
+  margin: 0;
+}
+
+.card {
+  height: 71px;
+  border: 1px solid #EAEAEA;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 0;
+}
+.brands__tabs_lenovo {
+  background-image: url(/img/services-pics/Lenovo.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 20px;
+}
+.brands__tabs_samsung {
+  background-image: url(/img/services-pics/Samsung.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 17px;
+}
+.brands__tabs_apple {
+  background-image: url(/img/services-pics/Apple.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 12px;
+}
+.brands__tabs_bosch {
+  background-image: url(/img/services-pics/Bosch.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 21.7px;
+}
+.brands__tabs_hp {
+  background-image: url(/img/services-pics/HP.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px top 10px;
+}
+.brands__tabs_acer {
+  background-image: url(/img/services-pics/Acer.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 24px;
+}
+.brands__tabs_view-sonic {
+  background-image: url(/img/services-pics/ViewSonic.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 26px;
+}
+.brands__tabs_sony {
+  background-image: url(/img/services-pics/Sony.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 23px;
+}
+.brands__tabs_link {
+  position: relative;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #B5B6BC;
+}
+.swiper-pagination-bullet {
+  background-color: #DDDDDD;
+}
+
+.swiper-container {
+  height: 300px;
+}
+.swiper-pagination-bullets {
+  top: 104px;
+  left: 58px;
+}
