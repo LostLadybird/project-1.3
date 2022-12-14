@@ -29,15 +29,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .title {
   font-family: "TTLakes-Light", "Arial", sans-serif;
   font-size: 16px;
-  color: #7E7E82;
+  color: #7e7e82;
   letter-spacing: -0.2px;
   line-height: 24px;
   text-transform: uppercase;
@@ -55,7 +55,7 @@
 .brands li {
   width: 240px;
   height: 72px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   border-radius: 6px;
   padding: 0;
   margin-left: 16px;
