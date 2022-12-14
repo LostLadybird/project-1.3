@@ -172,42 +172,42 @@
   padding: 0;
 }
 .brands__tabs_lenovo {
-  background-image: url(/img/services-pics/Lenovo.svg);
+  background-image: url(../img/services-pics/Lenovo.svg);
   background-repeat: no-repeat;
   background-position: left 16px top 20px;
 }
 .brands__tabs_samsung {
-  background-image: url(/img/services-pics/Samsung.svg);
+  background-image: url(../img/services-pics/Samsung.svg);
   background-repeat: no-repeat;
   background-position: left 16px top 17px;
 }
 .brands__tabs_apple {
-  background-image: url(/img/services-pics/Apple.svg);
+  background-image: url(../img/services-pics/Apple.svg);
   background-repeat: no-repeat;
   background-position: left 16px top 12px;
 }
 .brands__tabs_bosch {
-  background-image: url(/img/services-pics/Bosch.svg);
+  background-image: url(../img/services-pics/Bosch.svg);
   background-repeat: no-repeat;
   background-position: left 16px top 21.7px;
 }
 .brands__tabs_hp {
-  background-image: url(/img/services-pics/HP.svg);
+  background-image: url(../img/services-pics/HP.svg);
   background-repeat: no-repeat;
   background-position: left 10px top 10px;
 }
 .brands__tabs_acer {
-  background-image: url(/img/services-pics/Acer.svg);
+  background-image: url(../img/services-pics/Acer.svg);
   background-repeat: no-repeat;
   background-position: left 16px top 24px;
 }
 .brands__tabs_view-sonic {
-  background-image: url(/img/services-pics/ViewSonic.svg);
+  background-image: url(../img/services-pics/ViewSonic.svg);
   background-repeat: no-repeat;
   background-position: left 14px top 26px;
 }
 .brands__tabs_sony {
-  background-image: url(/img/services-pics/Sony.svg);
+  background-image: url(../img/services-pics/Sony.svg);
   background-repeat: no-repeat;
   background-position: left 14px top 23px;
 }
